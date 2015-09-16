@@ -1,6 +1,6 @@
 // Mixins, Variables and Vendor imports.
 @import 'variables';
-
+@import "materialize";
 // Main Styles
 @import 'small/base';
 
@@ -8,6 +8,6 @@
   @import 'medium/base';
 }
 
-@media screen and (min-width: $large-breakpoint) {  
+@media screen and (min-width: $large-breakpoint) {
   @import 'large/base';
 }
