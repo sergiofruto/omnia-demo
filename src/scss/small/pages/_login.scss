@@ -1,0 +1,26 @@
+#step-1 {
+  background: #00bcd4;
+}
+
+.form-container {
+  min-width: 428px;
+  padding: 30px;
+  background: white;
+
+  .logo {
+    max-width: 115px;
+    padding-bottom: 22px;
+  }
+
+  h4 {
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+
+  .remind-me {
+    float: left;
+    display: block;
+    width: 100%;
+    padding: 0% 7%;
+  }
+}
