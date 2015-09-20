@@ -7,5 +7,6 @@
 $( document ).ready(function(){
   // Initialize collapse button
   $(".button-collapse").sideNav();
-  console.log ("nav");
+  $("select").material_select();
+  console.log ("funciona");
 })

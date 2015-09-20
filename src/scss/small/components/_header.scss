@@ -1,0 +1,36 @@
+nav {
+  .nav-wrapper {
+    .button-collapse {
+      padding: 0px 15px;
+
+      .material-icons {
+          font-size: 2.4rem;
+      }
+    }
+
+    .brand-logo {
+      left: 75px;
+
+      img {
+        max-width: 40px;
+        margin: 10px
+      }
+    }
+  }
+}
+
+.sub-header {
+  background-color: #E0E0E0;
+
+  ul {
+    li {
+      display: inline-block;
+      font-size: 14px;
+      margin-right: 5px;
+
+      &.active {
+        color: $primary-color;
+      }
+    }
+  }
+}

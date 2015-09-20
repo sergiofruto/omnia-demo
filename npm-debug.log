@@ -1,0 +1,196 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/4.1.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'gulp-sass' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.0
+4 verbose install initial load of /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/package.json
+5 warn package.json boilerplate@0.1.0 No repository field.
+6 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/babelify/package.json
+7 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/browserify/package.json
+8 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/critical/package.json
+9 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/del/package.json
+10 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp/package.json
+11 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-babel/package.json
+12 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-concat/package.json
+13 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-eslint/package.json
+14 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-jshint/package.json
+15 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-minify-html/package.json
+16 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-plumber/package.json
+17 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-processhtml/package.json
+18 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-rename/package.json
+19 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass/package.json
+20 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sourcemaps/package.json
+21 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-uglify/package.json
+22 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-watch/package.json
+23 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-webserver/package.json
+24 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/jshint-stylish/package.json
+25 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/minimist/package.json
+26 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/node-notifier/package.json
+27 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/run-sequence/package.json
+28 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/vinyl-buffer/package.json
+29 verbose installManyTop reading scoped package data from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/vinyl-source-stream/package.json
+30 info package.json gulp-eslint@0.13.2 No license field.
+31 info package.json gulp-minify-html@0.1.8 No license field.
+32 info package.json gulp-plumber@0.6.6 No license field.
+33 info package.json gulp-rename@1.2.2 No license field.
+34 verbose readDependencies loading dependencies from /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/package.json
+35 silly cache add args [ 'gulp-sass', null ]
+36 verbose cache add spec gulp-sass
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'gulp-sass',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'gulp-sass',
+37 silly cache add   rawSpec: '',
+37 silly cache add   spec: '*',
+37 silly cache add   type: 'range' }
+38 silly addNamed gulp-sass@*
+39 verbose addNamed "*" is a valid semver range for gulp-sass
+40 silly addNameRange { name: 'gulp-sass', range: '*', hasData: false }
+41 silly mapToRegistry name gulp-sass
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+45 verbose addNameRange registry:https://registry.npmjs.org/gulp-sass not in flight; fetching
+46 verbose request uri https://registry.npmjs.org/gulp-sass
+47 verbose request no auth needed
+48 info attempt registry request try #1 at 20:17:08
+49 verbose request id a0a4427cf2c16cf8
+50 verbose etag "25S7JMDTBHKHW5OJISHI5QMP7"
+51 http request GET https://registry.npmjs.org/gulp-sass
+52 http 304 https://registry.npmjs.org/gulp-sass
+53 silly get cb [ 304,
+53 silly get   { date: 'Sat, 19 Sep 2015 23:17:09 GMT',
+53 silly get     via: '1.1 varnish',
+53 silly get     'cache-control': 'max-age=60',
+53 silly get     etag: '"25S7JMDTBHKHW5OJISHI5QMP7"',
+53 silly get     age: '29',
+53 silly get     connection: 'keep-alive',
+53 silly get     'x-served-by': 'cache-atl6227-ATL',
+53 silly get     'x-cache': 'HIT',
+53 silly get     'x-cache-hits': '1',
+53 silly get     'x-timer': 'S1442704629.570528,VS0,VE1',
+53 silly get     vary: 'Accept' } ]
+54 verbose etag https://registry.npmjs.org/gulp-sass from cache
+55 verbose get saving gulp-sass to /Users/mvvitale/.npm/registry.npmjs.org/gulp-sass/.cache.json
+56 silly addNameRange number 2 { name: 'gulp-sass', range: '*', hasData: true }
+57 silly addNameRange versions [ 'gulp-sass',
+57 silly addNameRange   [ '0.1.0',
+57 silly addNameRange     '0.2.1',
+57 silly addNameRange     '0.2.2',
+57 silly addNameRange     '0.2.3',
+57 silly addNameRange     '0.3.0',
+57 silly addNameRange     '0.4.0',
+57 silly addNameRange     '0.4.1',
+57 silly addNameRange     '0.5.0',
+57 silly addNameRange     '0.5.1',
+57 silly addNameRange     '0.5.2',
+57 silly addNameRange     '0.6.0',
+57 silly addNameRange     '0.7.0',
+57 silly addNameRange     '0.7.1',
+57 silly addNameRange     '0.7.2',
+57 silly addNameRange     '0.7.3',
+57 silly addNameRange     '1.0.0',
+57 silly addNameRange     '1.1.0',
+57 silly addNameRange     '1.2.0',
+57 silly addNameRange     '1.2.1',
+57 silly addNameRange     '1.2.2',
+57 silly addNameRange     '1.2.3',
+57 silly addNameRange     '1.2.4',
+57 silly addNameRange     '1.3.0',
+57 silly addNameRange     '1.3.1',
+57 silly addNameRange     '1.3.2',
+57 silly addNameRange     '1.3.3',
+57 silly addNameRange     '2.0.0-alpha.1',
+57 silly addNameRange     '2.0.0',
+57 silly addNameRange     '2.0.2',
+57 silly addNameRange     '2.0.3',
+57 silly addNameRange     '2.0.4' ] ]
+58 silly addNamed gulp-sass@2.0.4
+59 verbose addNamed "2.0.4" is a plain semver version for gulp-sass
+60 silly cache afterAdd gulp-sass@2.0.4
+61 verbose afterAdd /Users/mvvitale/.npm/gulp-sass/2.0.4/package/package.json not in flight; writing
+62 verbose afterAdd /Users/mvvitale/.npm/gulp-sass/2.0.4/package/package.json written
+63 silly install resolved [ { name: 'gulp-sass',
+63 silly install resolved     version: '2.0.4',
+63 silly install resolved     description: 'Gulp plugin for sass',
+63 silly install resolved     main: 'index.js',
+63 silly install resolved     scripts: { test: 'mocha test' },
+63 silly install resolved     repository: { type: 'git', url: 'git://github.com/dlmanning/gulp-sass.git' },
+63 silly install resolved     keywords: [ 'gulpplugin', 'sass', 'gulp' ],
+63 silly install resolved     author: { name: 'David Manning' },
+63 silly install resolved     license: 'MIT',
+63 silly install resolved     bugs: { url: 'https://github.com/dlmanning/gulp-sass/issues' },
+63 silly install resolved     dependencies:
+63 silly install resolved      { 'gulp-util': '^3.0',
+63 silly install resolved        'node-sass': '^3.0.0',
+63 silly install resolved        'object-assign': '^2.0.0',
+63 silly install resolved        through2: '^0.6.3',
+63 silly install resolved        'vinyl-sourcemaps-apply': '~0.1.1' },
+63 silly install resolved     devDependencies:
+63 silly install resolved      { 'autoprefixer-core': '^5.1.11',
+63 silly install resolved        eslint: '^0.17.1',
+63 silly install resolved        globule: '^0.2.0',
+63 silly install resolved        gulp: '^3.8.11',
+63 silly install resolved        'gulp-postcss': '^5.1.6',
+63 silly install resolved        'gulp-sourcemaps': '^1.5.2',
+63 silly install resolved        'gulp-tap': '^0.1.3',
+63 silly install resolved        mocha: '^2.2.1',
+63 silly install resolved        should: '^5.2.0' },
+63 silly install resolved     gitHead: '8f5e91f4427161f17415edfd709085205ee47608',
+63 silly install resolved     homepage: 'https://github.com/dlmanning/gulp-sass#readme',
+63 silly install resolved     _id: 'gulp-sass@2.0.4',
+63 silly install resolved     _shasum: '9703de980b9ebf2a418271e0c5e3e4ed9adf76ba',
+63 silly install resolved     _from: 'gulp-sass@*',
+63 silly install resolved     _npmVersion: '2.11.2',
+63 silly install resolved     _nodeVersion: '0.12.5',
+63 silly install resolved     _npmUser: { name: 'snugug', email: 'sam@snug.ug' },
+63 silly install resolved     dist:
+63 silly install resolved      { shasum: '9703de980b9ebf2a418271e0c5e3e4ed9adf76ba',
+63 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-sass/-/gulp-sass-2.0.4.tgz' },
+63 silly install resolved     maintainers: [ [Object], [Object] ],
+63 silly install resolved     directories: {},
+63 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.0.4.tgz',
+63 silly install resolved     readme: 'ERROR: No README data found!' } ]
+64 info install gulp-sass@2.0.4 into /Users/mvvitale/Documents/Personal work/Sites/omnia-demo
+65 info installOne gulp-sass@2.0.4
+66 verbose installOne of gulp-sass to /Users/mvvitale/Documents/Personal work/Sites/omnia-demo not in flight; installing
+67 verbose lock using /Users/mvvitale/.npm/_locks/gulp-sass-22c99a1335bdefca.lock for /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass
+68 silly install write writing gulp-sass 2.0.4 to /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass
+69 verbose unbuild node_modules/gulp-sass
+70 silly gentlyRm /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass is being purged from base /Users/mvvitale/Documents/Personal work/Sites/omnia-demo
+71 verbose gentlyRm don't care about contents; nuking /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass
+72 silly vacuum-fs purging /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass
+73 verbose unlock done using /Users/mvvitale/.npm/_locks/gulp-sass-22c99a1335bdefca.lock for /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass
+74 verbose stack Error: EACCES: permission denied, unlink '/Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass/node_modules/.bin/node-sass'
+74 verbose stack     at Error (native)
+75 verbose cwd /Users/mvvitale/Documents/Personal work/Sites/omnia-demo
+76 error Darwin 14.5.0
+77 error argv "/usr/local/Cellar/node/4.1.0/bin/node" "/usr/local/bin/npm" "install" "gulp-sass"
+78 error node v4.1.0
+79 error npm  v2.14.4
+80 error path /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass/node_modules/.bin/node-sass
+81 error code EACCES
+82 error errno -13
+83 error syscall unlink
+84 error Error: EACCES: permission denied, unlink '/Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass/node_modules/.bin/node-sass'
+84 error     at Error (native)
+84 error  { [Error: EACCES: permission denied, unlink '/Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass/node_modules/.bin/node-sass']
+84 error   errno: -13,
+84 error   code: 'EACCES',
+84 error   syscall: 'unlink',
+84 error   path: '/Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass/node_modules/.bin/node-sass' }
+85 error Please try running this command again as root/Administrator.
+86 verbose exit [ -13, true ]
+87 verbose unbuild node_modules/gulp-sass
+88 silly gentlyRm /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass is being purged from base /Users/mvvitale/Documents/Personal work/Sites/omnia-demo
+89 verbose gentlyRm don't care about contents; nuking /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass
+90 silly vacuum-fs purging /Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass
+91 error error rolling back Error: EACCES: permission denied, unlink '/Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass/node_modules/.bin/node-sass'
+91 error error rolling back     at Error (native)
+91 error error rolling back  { [Error: EACCES: permission denied, unlink '/Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass/node_modules/.bin/node-sass']
+91 error error rolling back   errno: -13,
+91 error error rolling back   code: 'EACCES',
+91 error error rolling back   syscall: 'unlink',
+91 error error rolling back   path: '/Users/mvvitale/Documents/Personal work/Sites/omnia-demo/node_modules/gulp-sass/node_modules/.bin/node-sass' }
