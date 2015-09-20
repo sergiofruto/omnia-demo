@@ -151,7 +151,7 @@ gulp.task('imgmin', function () {
 gulp.task('default', function (cb) {
     runSequence('clean', 'build');
 });
-gulp.task('build', ['sass', 'lint', 'scripts', 'imgmin', 'html']);
+gulp.task('build', ['sass', 'scripts', 'imgmin', 'html']);
 gulp.task('clean', function (cb) {
   // Delete dist folder and rebuild.
   return del(['dist'], function () {
@@ -174,7 +174,7 @@ gulp.task('watch', ['server'], function () {
     gulp.start(['html'], c);
   });
   watch('src/js/**/*.js', function (f, c) {
-    gulp.start(['lint','scripts'], c);
+    gulp.start(['scripts'], c);
   });
   watch('src/scss/**/*.scss', function (f, c) {
     gulp.start('sass', c);

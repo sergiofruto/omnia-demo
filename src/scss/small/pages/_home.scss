@@ -5,3 +5,22 @@ body {
 h1 {
   color: white;
 }
+
+/*overtide for collections*/
+
+.collection {
+  .collection-item {
+    &.avatar {
+      padding-left: 25px;
+    }
+
+    .secondary-content {
+      &.list {
+        li {
+          display: inline-block;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

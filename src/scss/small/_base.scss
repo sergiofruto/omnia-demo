@@ -2,8 +2,9 @@
 @import 'components/example';
 @import 'components/header';
 // Page Imports
-@import 'pages/home';
 @import 'pages/login';
+@import 'pages/home';
+@import 'pages/profile';
 
 // Base Styles
 body {
