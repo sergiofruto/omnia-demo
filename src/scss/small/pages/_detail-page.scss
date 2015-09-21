@@ -1,0 +1,21 @@
+.modal {
+    .modal-headline {
+        margin-bottom: 30px;
+        font-weight: 300;
+    }
+
+    .modal-step-title {
+        float: left;
+        margin: 0 20px 10px 0;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .modal-footer {
+        padding: 4px 24px 16px;
+        height: 70px;
+        
+        .cancel-modal{
+            float: left;
+        }
+    }
+}
