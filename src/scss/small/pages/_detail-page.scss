@@ -13,9 +13,27 @@
     .modal-footer {
         padding: 4px 24px 16px;
         height: 70px;
-        
+
         .cancel-modal{
             float: left;
+        }
+    }
+}
+
+/* Styles for Farmacos y Tratamientos */
+.farmacos {
+    .collection-item.avatar {
+        span.title {
+            font-size: 18px;
+            font-weight: 400;
+            color: gray;
+        }
+
+        p {
+            font-size: 17px;
+            color: grey;
+            font-weight: 300;
+            margin: 2px 0;
         }
     }
 }

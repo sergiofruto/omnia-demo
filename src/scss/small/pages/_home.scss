@@ -19,6 +19,19 @@ h1 {
         li {
           display: inline-block;
           margin-left: 10px;
+
+
+          a {
+            color: #bdbdbd;
+          }
+
+          &:last-child {
+              margin-left: 20px;
+
+              a {
+                color: #039be5;
+              }
+          }
         }
       }
     }

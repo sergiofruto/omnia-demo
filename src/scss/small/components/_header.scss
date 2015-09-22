@@ -12,24 +12,38 @@ nav {
       left: 75px;
 
       img {
-        max-width: 40px;
-        margin: 10px
+        max-width: 200px;
+        margin-top: 7.5px;
       }
     }
   }
 }
 
 .sub-header {
-  background-color: #E0E0E0;
+  padding: 8px 8px 0 8px;
 
   ul {
     li {
       display: inline-block;
       font-size: 14px;
-      margin-right: 5px;
+      margin-right: 10px;
+      font-weight: 500;
+      color: #bdbdbd;
+
+      &:after {
+        content: "/";
+        color: gray;
+        padding-left: 10px;
+      }
 
       &.active {
         color: $primary-color;
+      }
+
+      &:last-child {
+          &:after {
+              content: "";
+          }
       }
     }
   }
