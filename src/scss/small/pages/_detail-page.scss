@@ -18,6 +18,17 @@
             float: left;
         }
     }
+
+    img {
+        max-width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    embed {
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 /* Styles for Farmacos y Tratamientos */
