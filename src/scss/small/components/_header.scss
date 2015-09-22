@@ -17,6 +17,22 @@ nav {
       }
     }
   }
+
+  #dropdown-user {
+      margin-top: 64px;
+  }
+
+  .avatar {
+      width: 40px;
+      height: 40px;
+      float: right;
+      margin: 10px 0 0 4px;
+      border-radius: 50%;
+
+      &+.material-icons {
+          margin-left: 4px;
+      }
+  }
 }
 
 .sub-header {

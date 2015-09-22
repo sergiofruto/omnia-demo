@@ -1,26 +1,43 @@
-#step-1 {
+#login {
   background: #00bcd4;
 }
 
 .form-container {
-  min-width: 428px;
-  padding: 30px;
-  background: white;
+    min-width: 428px;
+    padding: 30px;
+    background: white;
+    margin-top: 50px;
+    border-radius: 3px;
 
-  .logo {
-    max-width: 115px;
-    padding-bottom: 22px;
-  }
+    .logo {
+        max-width: 115px;
+        padding-bottom: 22px;
+    }
 
-  h4 {
-    font-size: 13px;
-    text-transform: uppercase;
-  }
+    h4 {
+        font-size: 16px;
+        text-transform: uppercase;
+    }
 
-  .remind-me {
-    float: left;
-    display: block;
-    width: 100%;
-    padding: 0% 7%;
-  }
+    .remind-me {
+        float: left;
+        display: block;
+        width: 100%;
+        padding: 0% 7%;
+    }
+
+    .btn-large {
+        width: 90%;
+        height: 50px;
+        line-height: 52px;
+        margin: 10px auto;
+    }
+
+    .login-bottom {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        overflow: hidden;
+        padding-top: 20px;
+    }
 }
