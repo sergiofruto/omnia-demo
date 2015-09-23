@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8">
         <title>Omnia</title>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -199,13 +200,35 @@
               <i class="large material-icons">add</i>
             </a>
             <ul>
-                <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></i></a></li>
-                <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-                <li><a class="btn-floating green modal-trigger" href="#modal1"><i class="material-icons">publish</i></a></li>
+                <li>
+                    <a class="btn-floating deep-purple lighten-1 modal-trigger tooltipped" data-position="left" data-delay="50" data-tooltip="Nuevo Estudio" href="#modal-est">
+                        <i class="material-icons">playlist_add</i>
+                    </a>
+                </li>
+                <li>
+                    <a class="btn-floating blue modal-trigger tooltipped" data-position="left" data-delay="50" data-tooltip="Nuevo Resúmen/Epicrisis" href="#modal-res-epi">
+                        <i class="material-icons">playlist_add</i>
+                    </a>
+                </li>
+                <li>
+                    <a class="btn-floating red modal-trigger tooltipped" data-position="left" data-delay="50" data-tooltip="Nuevo Fármaco" href="#modal-farm">
+                        <i class="material-icons">playlist_add</i>
+                    </a>
+                </li>
+                <li>
+                    <a class="btn-floating yellow darken-1 modal-trigger tooltipped" data-position="left" data-delay="50" data-tooltip="Nueva Alergia" href="#modal-aler">
+                        <i class="material-icons">playlist_add</i>
+                    </a>
+                </li>
+                <li>
+                    <a class="btn-floating green modal-trigger tooltipped" data-position="left" data-delay="50" data-tooltip="Nuevo Problema" href="#modal-prob">
+                        <i class="material-icons">playlist_add</i>
+                    </a>
+                </li>
             </ul>
         </div>
         <!-- modal 1 -->
-        <div id="modal1" class="modal">
+        <div id="modal-est" class="modal">
             <div class="modal-content">
                 <h4 class="pink-text lighten-2-text modal-headline">Agregar un nuevo estudio</h4>
                 <div class="row">
@@ -314,8 +337,229 @@
                 <a href="#!" class="waves-effect waves-teal btn modal-action modal-close">VOLVER</a>
             </div>
         </div>
-
         <!-- /modal estudio 3 -->
+
+
+        <!-- modal-prob -->
+        <div id="modal-prob" class="modal">
+            <div class="modal-content">
+                <h4 class="pink-text lighten-2-text modal-headline">Agregar un nuevo problema de salud</h4>
+                <div class="row">
+                    <div class="col s12 ">
+                        <form>
+                            <div class="row">
+                                <p class="modal-step-title pink-text lighten-2-text">
+                                    Paso 1.
+                                </p>
+                                <div class="input-field col s12 m6" id="nps-1">
+                                    <select>
+                                        <option value="" disabled selected>Seleccione una opción</option>
+                                        <option value="1">Problemas actuales</option>
+                                        <option value="2">Problemas previos</option>
+                                        <option value="3">Otros problemas</option>
+                                    </select>
+                                    <label for="nps-1">Estado del problema</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="modal-step-title pink-text lighten-2-text">
+                                    Paso 2.
+                                </p>
+                                <div class="input-field col s12 m6">
+                                    <input placeholder="Ingrese un síntoma, diagnóstico o enfermedad." id="prob_name" type="text" class="validate">
+                                    <label for="prob_name">Nombre del problema</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="modal-step-title">
+                                    <a href="#" class="toggle-show pink-text lighten-2-text">Agregar mas información</a>
+                                </p>
+                            </div>
+                            <div class="row hide" id="prob_more_info">
+                                <div class="input-field col s12 m6">
+                                    <input placeholder="Fecha en la que comenzó..." id="prob_date" type="text" class="validate">
+                                </div>
+                                <div class="input-field col s12">
+                                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                    <label for="textarea1">Descripción del problema...</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="red lighten-3 modal-action modal-close btn-flat cancel-modal">CANCELAR</a>
+                <a href="#!" class="waves-effect waves-teal btn modal-action modal-close">GUARDAR</a>
+            </div>
+        </div>
+        <!-- /modal prob -->
+        <!-- modal farm -->
+        <div id="modal-farm" class="modal">
+            <div class="modal-content">
+                <h4 class="pink-text lighten-2-text modal-headline">Agregar un nuevo fármaco</h4>
+                <div class="row">
+                    <div class="col s12 ">
+                        <form>
+                            <div class="row">
+                                <p class="modal-step-title pink-text lighten-2-text">
+                                    Paso 1.
+                                </p>
+                                <div class="input-field col s12 m6" id="nps-1">
+                                    <select>
+                                        <option value="" disabled selected>Seleccione una opción</option>
+                                        <option value="1">Fármacos actuales</option>
+                                        <option value="2">Fármacos previos</option>
+                                        <option value="3">Otros fármacos</option>
+                                    </select>
+                                    <label for="nps-1">Estado</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="modal-step-title pink-text lighten-2-text">
+                                    Paso 2.
+                                </p>
+                                <div class="input-field col s12 m6">
+                                    <input placeholder="Ingrese un síntoma, diagnóstico o enfermedad." id="prob_name" type="text" class="validate">
+                                    <label for="prob_name">Nombre del problema</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="modal-step-title">
+                                    <a href="#" class="toggle-show pink-text lighten-2-text">Agregar mas información</a>
+                                </p>
+                            </div>
+                            <div class="row hide" id="prob_more_info">
+                                <div class="input-field col s12 m6">
+                                    <input placeholder="Fecha en la que comenzó..." id="prob_date" type="text" class="validate">
+                                </div>
+                                <div class="input-field col s12">
+                                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                    <label for="textarea1">Descripción del problema...</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="red lighten-3 modal-action modal-close btn-flat cancel-modal">CANCELAR</a>
+                <a href="#!" class="waves-effect waves-teal btn modal-action modal-close">GUARDAR</a>
+            </div>
+        </div>
+        <!-- /modal farm -->
+
+        <!-- modal epi -->
+        <div id="modal-res-epi" class="modal">
+            <div class="modal-content">
+                <h4 class="pink-text lighten-2-text modal-headline">Agregar una nueva epicrisis o resumen</h4>
+                <div class="row">
+                    <div class="col s12 ">
+                        <form>
+                            <div class="row">
+                                <p class="modal-step-title pink-text lighten-2-text">
+                                    Paso 1.
+                                </p>
+                                <div class="input-field col s12 m6" id="nps-1">
+                                    <select>
+                                        <option value="" disabled selected>Seleccione una opción</option>
+                                        <option value="1">Epicrisis de internación</option>
+                                        <option value="2">Resumen</option>
+                                        <option value="3">Otro</option>
+                                    </select>
+                                    <label for="nps-1">Estado</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="modal-step-title pink-text lighten-2-text">
+                                    Paso 2.
+                                </p>
+                                <div class="input-field col s12 m6">
+                                    <input placeholder="Ingrese un síntoma, diagnóstico o enfermedad." id="prob_name" type="text" class="validate">
+                                    <label for="prob_name">Nombre del problema</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="modal-step-title">
+                                    <a href="#" class="toggle-show pink-text lighten-2-text">Agregar mas información</a>
+                                </p>
+                            </div>
+                            <div class="row hide" id="prob_more_info">
+                                <div class="input-field col s12 m6">
+                                    <input placeholder="Fecha en la que comenzó..." id="prob_date" type="text" class="validate">
+                                </div>
+                                <div class="input-field col s12">
+                                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                    <label for="textarea1">Descripción del problema...</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="red lighten-3 modal-action modal-close btn-flat cancel-modal">CANCELAR</a>
+                <a href="#!" class="waves-effect waves-teal btn modal-action modal-close">GUARDAR</a>
+            </div>
+        </div>
+        <!-- /modal epi -->
+
+        <!-- modal epi -->
+        <div id="modal-aler" class="modal">
+            <div class="modal-content">
+                <h4 class="pink-text lighten-2-text modal-headline">Agregar una nueva alergia</h4>
+                <div class="row">
+                    <div class="col s12 ">
+                        <form>
+                            <div class="row">
+                                <p class="modal-step-title pink-text lighten-2-text">
+                                    Paso 1.
+                                </p>
+                                <div class="input-field col s12 m6" id="nps-1">
+                                    <select>
+                                        <option value="" disabled selected>Seleccione una opción</option>
+                                        <option value="1">Epicrisis de internación</option>
+                                        <option value="2">Resumen</option>
+                                        <option value="3">Otro</option>
+                                    </select>
+                                    <label for="nps-1">Estado</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="modal-step-title pink-text lighten-2-text">
+                                    Paso 2.
+                                </p>
+                                <div class="input-field col s12 m6">
+                                    <input placeholder="Ingrese un síntoma, diagnóstico o enfermedad." id="prob_name" type="text" class="validate">
+                                    <label for="prob_name">Nombre del problema</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="modal-step-title">
+                                    <a href="#" class="toggle-show pink-text lighten-2-text">Agregar mas información</a>
+                                </p>
+                            </div>
+                            <div class="row hide" id="prob_more_info">
+                                <div class="input-field col s12 m6">
+                                    <input placeholder="Fecha en la que comenzó..." id="prob_date" type="text" class="validate">
+                                </div>
+                                <div class="input-field col s12">
+                                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                    <label for="textarea1">Descripción del problema...</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="red lighten-3 modal-action modal-close btn-flat cancel-modal">CANCELAR</a>
+                <a href="#!" class="waves-effect waves-teal btn modal-action modal-close">GUARDAR</a>
+            </div>
+        </div>
+        <!-- /modal epi -->
+
+
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/vendor.min.js"></script>
